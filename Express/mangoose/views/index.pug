@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="preconnect", href="https://fonts.gstatic.com")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css2?family=Redressed&display=swap")
+        title Document
+        style
+            include ../static/style.css
+    body
+        div.container
+            h1 Form to store data in a data base
+            form(action="/", method="post")
+                input(type="text" name="name" placeholder="Enter your name.")
+                input(type="number" name="number" placeholder="Enter your number.")
+                input(type="email" name="email" placeholder="Enter your email.")
+                button(type="submit" class="btn") submit
+    script
+        include ../static/script.js

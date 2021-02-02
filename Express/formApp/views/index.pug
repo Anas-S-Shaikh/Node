@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form example</title>
+    style
+      include ../static/style.css
+</head>
+<body>
+    <div class="container">
+        <h1>This is for testing backend.</h1>
+        <form action="/" method="POST">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="email" name="email" id="email" placeholder="Enter email">
+            <input type="number" name="number" id="number" placeholder="Enter your number">
+            <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+        <p>
+            | #{message}
+        </p>
+    </div>
+</body>
+</html>

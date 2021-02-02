@@ -1,0 +1,15 @@
+.customContainer {
+    height: 100vh;
+    background: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+}
+
+.customContainer i {
+    font-size: 2rem;
+}
+
+.customContainer i a {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
